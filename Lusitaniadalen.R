@@ -146,7 +146,7 @@ PMI <- melt(as.data.frame(cbind(log_height = mol$log_height,
 
 short_isos <- melt(as.data.frame(cbind(log_height = mol$log_height,
                                     "C14" = mol$`C14-isoprenoid`,
-                                    "C15" = mol$farnesane,
+                                    "C15" = mol$Farnesane,
                                     "C16" = mol$`C16-isoprenoid`,
                                     "C17" = mol$`C17-isoprenoid`,
                                     "C18" = mol$`nor-pristane`)),  id.vars = 'log_height', variable.name = 'compound')
@@ -253,4 +253,5 @@ total_biomarker <- ggarrange(plot_d13C, plot_CPI, plot_TAR, plot_PrPh_ratio,  pl
                   nrow = 1,  align = "hv")
 total_biomarker
 ggsave(total_biomarker, file = "Output/Total_biomarker.pdf", width = 70, height = 55, units = "cm")
+
 
