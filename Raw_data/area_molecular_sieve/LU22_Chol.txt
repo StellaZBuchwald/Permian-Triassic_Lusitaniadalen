@@ -1,0 +1,13 @@
+compound	LU22
+Farnesane	0.4509
+C16-isoprenoid	5.5343
+C17-isoprenoid	2.4637
+nor-pristane	20.5021
+Pristane	41.0654
+Phytane	31.0102
+C21-isoprenoid	11.3196
+C22-isoprenoid	8.8273
+C23-isoprenoid	8.5739
+C24-isoprenoid	7.4589
+PMI_regular	10.7596
+Cholestane	17.3147

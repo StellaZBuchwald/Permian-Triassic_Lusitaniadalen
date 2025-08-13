@@ -1,0 +1,10 @@
+compound	Long5
+nor-pristane	0.8328
+Pristane	2.0586
+Phytane	1.9191
+C21-isoprenoid	1.0994
+C22-isoprenoid	1.2082
+C23-isoprenoid	0.768
+C24-isoprenoid	0.7228
+PMI_regular	1.6264
+Cholestane	6.2988

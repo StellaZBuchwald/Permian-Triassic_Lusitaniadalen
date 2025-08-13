@@ -1,0 +1,13 @@
+compound	LU24-30-50
+Farnesane	0.6095
+C16-isoprenoid	3.417
+C17-isoprenoid	1.3541
+nor-pristane	8.0885
+Pristane	12.9822
+Phytane	9.8146
+C21-isoprenoid	3.7632
+C22-isoprenoid	2.501
+C23-isoprenoid	3.7482
+C24-isoprenoid	2.7218
+PMI_regular	3.2014
+Cholestane	8.5467

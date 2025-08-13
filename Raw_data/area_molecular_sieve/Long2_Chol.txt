@@ -1,0 +1,13 @@
+compound	Long2
+Farnesane	0.0243
+C16-isoprenoid	0.9085
+C17-isoprenoid	0.7764
+nor-pristane	5.694
+Pristane	10.0472
+Phytane	7.3091
+C21-isoprenoid	4.526
+C22-isoprenoid	2.4959
+C23-isoprenoid	3.1875
+C24-isoprenoid	2.7081
+PMI_regular	4.1748
+Cholestane	10.0838

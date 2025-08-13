@@ -1,0 +1,12 @@
+compound	LU16
+C16-isoprenoid	0.4253
+C17-isoprenoid	0.4948
+nor-pristane	6.0552
+Pristane	11.4178
+Phytane	9.0733
+C21-isoprenoid	4.3292
+C22-isoprenoid	4.3627
+C23-isoprenoid	3.9058
+C24-isoprenoid	3.449
+PMI_regular	4.4538
+Cholestane	5.9488

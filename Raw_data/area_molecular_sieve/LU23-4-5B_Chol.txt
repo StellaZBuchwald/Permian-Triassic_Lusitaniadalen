@@ -1,0 +1,11 @@
+compound	LU23-4-5B
+C17-isoprenoid	0.1218
+nor-pristane	4.4271
+Pristane	10.8925
+Phytane	10.0744
+C21-isoprenoid	5.5598
+C22-isoprenoid	4.805
+C23-isoprenoid	4.6606
+C24-isoprenoid	8.2741
+PMI_regular	8.401
+Cholestane	11.8373

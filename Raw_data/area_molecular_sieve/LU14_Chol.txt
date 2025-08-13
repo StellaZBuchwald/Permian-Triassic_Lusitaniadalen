@@ -1,0 +1,8 @@
+compound	LU14
+nor-pristane	1.3778
+Pristane	3.4011
+Phytane	2.6437
+C21-isoprenoid	1.8766
+C22-isoprenoid	2.4629
+PMI_regular	1.6234
+Cholestane	2.105
