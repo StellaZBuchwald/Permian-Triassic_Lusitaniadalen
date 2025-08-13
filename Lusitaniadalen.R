@@ -114,7 +114,7 @@ d13C <- read.table("Raw_data/d13Corg.txt", sep = "\t", header = TRUE)
 
 # N-ALKANES
 nalk <- merge(q_nalk_ug_TOC, as.data.frame(select(meta_nalk, sample, log_height)), by = "sample") # merge log_height
-write.xlsx(nalk, file = "Output/FID_n_alkanes_quantified_ug_TOC_Chol.xlsx")
+write.xlsx(nalk, file = "Output/FID_n_alk_quantified_ug_TOC_Chol.xlsx")
 
 # Terrigenous-aquatic ratio (TAR)
 TAR <- cbind(TAR = (nalk$`n-C27` + nalk$`n-C29` + nalk$`n-C31`)/(nalk$`n-C15` + nalk$`n-C17` + nalk$`n-C19`),
@@ -130,7 +130,7 @@ CPI <- as.data.frame(cbind(CPI = ((((nalk$`n-C25` + nalk$`n-C27` + nalk$`n-C29` 
 
 # POST MOLECULAR SIEVE COMPOUNDS
 mol <- merge(q_mol_ug_TOC, as.data.frame(select(meta_mol, sample, log_height)), by = "sample") # merge log_height
-write.xlsx(mol, file = "Output/FID_molsieb_quantified_ug_TOC_Chol.xlsx")
+write.xlsx(mol, file = "Output/FID_mol_quantified_ug_TOC_Chol.xlsx")
 
 # pristane and phytane
 Pr_Ph <- melt(as.data.frame(select(mol, log_height, Pristane, Phytane)), id.vars = 'log_height', variable.name = 'compound')
@@ -253,3 +253,4 @@ total_biomarker <- ggarrange(plot_d13C, plot_CPI, plot_TAR, plot_PrPh_ratio,  pl
                   nrow = 1,  align = "hv")
 total_biomarker
 ggsave(total_biomarker, file = "Output/Total_biomarker.pdf", width = 70, height = 55, units = "cm")
+
